@@ -1,18 +1,18 @@
 import React from "react";
 
-
+// alternatieve tekst bij de eerste div en twee keer footer om blokken naast elkaar te krijgen?
 function Tiles({title, children, image}) {
-    return (
-        <>
-            <div>
-                <h2>{title}</h2>
-                <p>{children}</p>
-            </div>
-            <div>
+    return image !== undefined ?
+        (
+            <section>
                 <img src={image} alt={title}/>
-            </div>
-        </>
-    )
+            </section>
+        ):(
+            <section>
+                <h2>{title}</h2>
+                {children}
+            </section>
+        )
 }
 
 export default Tiles

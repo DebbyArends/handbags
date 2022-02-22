@@ -59,7 +59,6 @@ function App() {
                 />
             </main>
             <footer>
-                <section>
                     <Tiles title="the brand">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque culpa eligendi est fuga fugiat illum
                             iure magni maiores minus nam pariatur porro, tempore, tenetur ullam.</p>
@@ -67,24 +66,18 @@ function App() {
                         <p>Ab incidunt laudantium placeat
                             quibusdam, sed soluta unde. Consectetur consequatur eum laborum qui ratione</p>
                     </Tiles>
-                </section>
-                <section>
                     <Tiles
                         image= {brand}
                     />
-                </section>
-                </footer>
+            </footer>
             <footer>
-                <section>
                     <Tiles
-                        image= {ourStory}/>
-                </section>
-                <section>
+                        image= {ourStory}
+                    />
                     <Tiles title= "our story">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque culpa eligendi est fuga fugiat illum
                             iure magni maiores minus nam pariatur porro, tempore, tenetur ullam.</p>
                     </Tiles>
-                </section>
             </footer>
         </>
     );
