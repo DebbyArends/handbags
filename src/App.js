@@ -69,8 +69,6 @@ function App() {
                     <Tiles
                         image= {brand}
                     />
-            </footer>
-            <footer>
                     <Tiles
                         image= {ourStory}
                     />
